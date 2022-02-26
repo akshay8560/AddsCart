@@ -292,10 +292,13 @@
             android:layout_width="355dp"
             android:layout_height="199dp" />
 
+
        <!-- <ImageButton
             android:layout_width="300dp"
             android:layout_height="141dp"
             android:src="@drawable/locationimage"></ImageButton>-->
+
+
     </RelativeLayout>
 
     <LinearLayout

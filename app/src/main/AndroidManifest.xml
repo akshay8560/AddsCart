@@ -10,13 +10,14 @@
         android:theme="@style/Theme.MyApplication">
 
         <activity
-            android:name=".FormFillupActivity"
+
+            android:name=".ConfirmPickupActivity"
             android:exported="false" />
         <activity
             android:name=".OnBoardingScreen"
             android:exported="false" />
         <activity
-            android:name=".ConfirmPickupActivity"
+            android:name=".FormFillupActivity"
             android:exported="true">
 
             <intent-filter>

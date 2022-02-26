@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ConfirmPickupActivity extends AppCompatActivity {
 
@@ -40,8 +41,6 @@ public class ConfirmPickupActivity extends AppCompatActivity {
         fragment_location=findViewById(R.id.location_fragment);
         ed_note=findViewById(R.id.ed_note);
         txt_btn_proceed=findViewById(R.id.btn_proceed);
-
-
 
     }
 }
