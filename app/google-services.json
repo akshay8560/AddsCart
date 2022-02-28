@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144889611825",
+    "firebase_url": "https://sellsscrape-default-rtdb.firebaseio.com",
+    "project_id": "sellsscrape",
+    "storage_bucket": "sellsscrape.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144889611825:android:ee91c5b7b956c1e3d1f710",
+        "android_client_info": {
+          "package_name": "com.as2developers.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144889611825-msers3c645dvgjrltjgvl59g4vj3flsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.as2developers.myapplication",
+            "certificate_hash": "bcc433b7b9de5dd26bb901091f95c70d947ae88e"
+          }
+        },
+        {
+          "client_id": "144889611825-m2oh0eg1hr04f524h9ufh3pat1cufk6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBglNqsTdVbGRxJ3uByqqZB2P5krARM-MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144889611825-m2oh0eg1hr04f524h9ufh3pat1cufk6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
