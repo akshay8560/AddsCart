@@ -42,7 +42,7 @@ public class OnBoardingScreen extends AppCompatActivity {
         skipbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(OnBoardingScreen.this,MainActivity.class));
+                startActivity(new Intent(OnBoardingScreen.this,Login_Phone.class));
                 finish();
             }
         });
@@ -50,7 +50,7 @@ public class OnBoardingScreen extends AppCompatActivity {
         getStartedbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(OnBoardingScreen.this,MainActivity.class));
+                startActivity(new Intent(OnBoardingScreen.this,Login_Phone.class));
                 finish();
             }
         });

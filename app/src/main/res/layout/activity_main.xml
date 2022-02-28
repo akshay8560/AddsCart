@@ -23,5 +23,4 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>

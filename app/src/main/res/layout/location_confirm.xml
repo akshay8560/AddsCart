@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/sheet"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bottom_sheet_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="9sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#868686"
+            android:textStyle="bold"
+            android:text="Your Location"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="your location"
+            android:id="@+id/yourLocation"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:isScrollContainer="true"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radio_Group"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:text="Home"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:textSize="15dp"  />
+
+            <RadioButton
+                android:id="@+id/radio_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:text="Shop"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/ratio_office"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:text="Office"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:textSize="15dp"  />
+
+            <RadioButton
+                android:id="@+id/radio_outlet"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:text="Mall/Outlet"
+                android:textColor="@color/purple_700"
+                android:textSize="15dp" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Locality"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/UserLocality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Address line"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addressLine"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:textColor="#989797"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Your detailed address will help us to pick your scrap faster"
+        />
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:clickable="false"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple_700"
+        />
+
+</LinearLayout>
